@@ -1,0 +1,8 @@
+#1 Instalar requisitos
+python -m pip install -r requirements.txt
+
+#2 Verificar requisitos
+python -m pytest --version
+python -m pip show selenium
+python -m pip show pytest-html
+
